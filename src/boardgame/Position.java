@@ -3,10 +3,10 @@ package boardgame;
 public class Position {
   private int column, row;
 
-  public Position(int column, int row) 
+  public Position(int row, int column) 
   {
-    this.column = column;
     this.row = row;
+    this.column = column;
   }
 
   public int getRow() 
